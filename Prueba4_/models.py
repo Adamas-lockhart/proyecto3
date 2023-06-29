@@ -29,4 +29,4 @@ class Clientes_Premium(Clientes):
     Cliente_ID_Premium = models.AutoField(primary_key=True)
     
     def __str__(self):
-        return self.Nombre_P
+        return self.Nombre
